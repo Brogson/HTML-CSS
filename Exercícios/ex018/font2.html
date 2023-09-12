@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'death';
+            src: url('fontes/Death\ Record.otf') format('opentype'), url('fontes/Death\ Record.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format()
+            -opentype (otf)
+            -truetype (ttf)
+            -embedded-opentype
+            -truetype.aat
+            -svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }
+        h1{
+            font-family: 'death', 'Times New Roman', Times, serif;
+        }
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Você pode utilizar arquivos externos com o site Dafont.com</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maxime, accusantium voluptatibus, facere odio deleniti blanditiis error alias dolor sit ipsam porro esse pariatur recusandae vitae excepturi velit veniam numquam.</p>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-cursoemvideo.ico" type="image/x-icon">
+    <title>Formatação de textos</title>
+    <style>
+        mark {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em Negrito</b> usando a tag &lt;b&gt; (não semântica).</p>
+    <p>Nessa frase temos um <strong>termo em Destaque</strong> usando a tag &lt;strong&gt;(semântica).</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase temos um <i>termo em itálico</i> usando a tag &lt;i&gt; (não semântica).</p>
+    <p>Nesta frase temos um <em>termo em Ênfase</em> usando a tag &lt;em&gt; (semântica).</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos também criar um <mark style="background-color: yellow;">texto marcado</mark> utilizando a tag &lt;mark&gt;</p><!--Inicialmente em amarelo-->
+    <p>Podemos mudar a cor de um <mark style="background-color: rgb(144, 142, 233);">termo marcado</mark> alterando os parâmetros de cor da tag &lt;mark&gt;</p>
+    <p>Se mudarmos o parâmetros do cabeçalho, podemos mudar a configuração de &lt;mark&gt; para o site todo, basta utilizar:
+        <pre><strong>
+    &lt;style&gt;
+        mark {
+        background-color: aquamarine;
+        }
+    &lt;/style&gt; </strong>
+    </pre>
+    <p>Assim, todos os <mark>termos marcados</mark> terão as mesmas <mark>cores.</mark>
+    </p>
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste parágrafo</p>
+    <h2>Texto Deletado</h2>
+    <p>Podemos marcar um <del>texto como excluído</del>, para que seja lido, mas não considerado com a tag &lt;del&gt;</p>
+    <h2>Texto Inserido</h2>
+    <p>Também se pode marcar um <ins>texto como inserido</ins>, para que fique sublinhado, de forma a preencher, com a tag &lt;ins&gt; (semântica).</p>
+    <p>Para apenas <u>sublinhar o texto</u>, utiliza-se a tag &lt;u&gt; (não semântica).
+    </p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo X<sup>2</sup></p>
+    <h2>Texto subscrito</h2>
+    <p>Para escrever coisas do tipo H<sub>2</sub>O</p>
+</body>
+</html>

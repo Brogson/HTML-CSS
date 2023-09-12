@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 16px;
+            margin: 10px;
+            border-radius: 7px;
+        }
+        nav{
+            background-color: rgb(109, 108, 108);
+            padding: 6px;
+            box-shadow: 3px 2px 3px 0.5px rgba(0, 0, 0, 0.493);
+            border-radius: 7px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: whitesmoke;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 7px;
+        }
+        article > aside{
+            background-color: rgba(59, 59, 59, 0.425);
+            text-align: end;
+            border-radius: 4px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 1px;
+            text-align: center;
+
+        }
+        footer > p{
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="Link">Link</a>
+            <a href="Link">Link</a>
+            <a href="Link">Link</a>
+            <a href="Link">Link</a>
+            <a href="Link">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Política Ciências</p>
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quia pariatur quam laborum voluptatum ipsam sunt praesentium! Quasi, fugit nisi? Tempora maxime unde blanditiis consequuntur magni! Quidem vitae officiis nobis.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por CursoEmVídeo</p>
+    </footer>
+</body>
+</html>
