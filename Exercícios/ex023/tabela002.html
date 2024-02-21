@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+            font-weight: bold;
+        }
+        tbody > tr:nth-child(even){
+            background-color: white;
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+<!--Anatomia para tabelas grandes:
+    TABLE
+        CAPTION
+        THEAD
+            tr, td, th
+        TBODY
+            tr, td, th
+        TFOOT
+            tr, td th
+-->
+
+<!--Não confundir th e td
+td é um DADO
+th é um título
+-->
+
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col" style="width: 5px;">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="num">1</td>
+                <td>São Paulo</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td class="num">2</td>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr>
+                <td class="num">3</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td class="num">4</td>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+            </tr>
+            <tr>
+                <td class="num">5</td>
+                <td>Paraná</td>
+                <td class="num">11 444 380</td>
+            </tr>
+            <tr>
+                <td class="num">6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 882 965</td>
+            </tr>
+            <tr>
+                <td class="num">7</td>
+                <td>Pernambuco</td>
+                <td class="num">9 058 931</td>
+            </tr>
+            <tr>
+                <td class="num">8</td>
+                <td>Ceará</td>
+                <td class="num">8 794 957</td>
+            </tr>
+            <tr>
+                <td class="num">9</td>
+                <td>Pará</td>
+                <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td class="num">10</td>
+                <td>Santa Catarina</td>
+                <td class="num">7 610 361</td>
+            </tr>
+            <tr>
+                <td class="num">11</td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+            <tr>
+                <td class="num">12</td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+            <tr>
+                <td class="num">13</td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+            <tr>
+                <td class="num">14</td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+            <tr>
+                <td class="num">15</td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+            <tr>
+                <td class="num">16</td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+            <tr>
+                <td class="num">17</td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <th></th>
+                <th class="num">00000000</th>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quas recusandae cum. Saepe dolore ea sequi consequuntur! Quae cumque a repellat tenetur! Autem dicta iusto laborum eveniet officiis fugiat est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur doloremque ipsum consequatur ullam odit earum debitis deleniti corrupti beatae saepe placeat quae nisi, recusandae modi ut minima exercitationem deserunt et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aut nemo, sed commodi iusto accusantium. Ab fugiat sunt consectetur accusamus et, voluptate consequuntur molestias, recusandae quidem quas iure impedit soluta.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, mollitia quibusdam ipsum assumenda placeat dolorem magni repudiandae fugiat necessitatibus quis quas et perferendis sequi voluptate. Veritatis in dicta excepturi dolorum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis consequuntur modi voluptatem nobis eaque similique ducimus est cum necessitatibus maxime ab cupiditate non qui ipsum expedita, provident iusto praesentium quis.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores explicabo et ullam dolorem exercitationem fugit voluptatibus modi recusandae distinctio voluptatem perferendis sed, aut fugiat, alias adipisci saepe eveniet? Consectetur, rerum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste dicta sunt! Dolore, illo autem unde maiores accusantium ab dolores, veniam nobis quisquam alias pariatur rerum hic repellat animi aliquam.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea atque quia corrupti odit iusto ad deleniti voluptates vero laborum aliquid maiores numquam porro, odio autem sapiente, voluptas perferendis rem itaque?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, cumque ipsum ea nulla magnam natus debitis recusandae sunt quaerat corrupti accusantium maxime autem adipisci alias commodi. Eveniet atque quibusdam numquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis distinctio, perferendis asperiores tenetur eos necessitatibus culpa voluptatibus, ut eligendi adipisci consequatur quaerat perspiciatis tempore inventore maxime quo voluptatem quae dolorum?</p>
+</body>
+</html>
